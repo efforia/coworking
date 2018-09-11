@@ -4,8 +4,9 @@
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="{% block meta_keywords %}{% endblock %}">
-<meta name="description" content="{% block meta_description %}{% endblock %}">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="coworking, colaborativo, Porto Alegre, Centro Histórico, microempresas, empreendedorismo">
+<meta name="description" content="A Fábrica de Ideias é um espaço de coworking localizado no centro de Porto Alegre.">
 <title>Fábrica de Ideias Coworking</title>
 <link rel="shortcut icon" href="./static/img/fabricalogo.png">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
