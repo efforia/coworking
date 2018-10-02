@@ -5,8 +5,8 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const StringReplacePlugin = require("string-replace-webpack-plugin");
 
 const path = require("path");
-const extractPlugin = new ExtractTextPlugin("./assets/css/app.css");
-const htmlTemplates = [];
+const extractPlugin = new ExtractTextPlugin("./assets/css");
+const htmlTemplates = ["partners", "photos", "pricing"];
 const htmlPlugins = htmlTemplates.map((template) => new HtmlWebpackPlugin({ filename: `${template}.html`, template: `./pages/${template}.html` }));
 
 const config = {
@@ -51,11 +51,36 @@ const config = {
                 })
             },
             // file-loader(for images)
-            { test: /\.(jpg|png|gif|svg)$/, use: [{ loader: "file-loader", options: { name: "[path][name].[ext]" } }] },
+            { test: /\.(jpg|png|gif)$/, use: [{ loader: "file-loader", options: { name: "[path][name].[ext]" } }] },
             // file-loader(for fonts)
             { test: /\.(woff|woff2|eot|ttf|otf)$/, use: [{ loader: "file-loader", options: { name: "[path][name].[ext]" } }] },
             // file-loader(for favicon)
             { test: /\.(ico)$/, use: [{ loader: "file-loader", options: { name: "[path][name].[ext]" } }] },
+            {
+                test: /\.(svg)$/,
+                exclude: /fonts/, /* dont want svg fonts from fonts folder to be included */
+                use: [
+                    {
+                        loader: 'svg-url-loader',
+                        options: {
+                            noquotes: true,
+                        },
+                    },
+                ],
+            },
+            {
+                test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+                exclude: /images/,  /* dont want svg images from image folder to be included */
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            outputPath: 'fonts/',
+                            name: '[name][hash].[ext]',
+                        },
+                    },
+                ],
+            }
         ]
     },
     plugins: [
