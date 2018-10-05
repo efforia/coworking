@@ -1,5 +1,249 @@
-@require('pages/components/jumbotron.html')
+<!DOCTYPE html>
+<html lang="pt">
 
+<head>
+  @require('pages/components/head.html')
+</head>
+
+<body class="landing-page landing-page1">
+  @require('pages/components/navbar.html')
+  <div class="wrapper">
+    <div class="parallax filter-gradient blue section-colorful hero-image" data-color="blue">
+      <div class="parallax-background banner-parallax"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 header-logo">
+            <img src="assets/svg/fabrica.svg" width="250" height="250">
+          </div>
+          <div class="col-md-8">
+            <div class="description">
+              <h1>Procurando o melhor coworking da cidade?</h1>
+              <h3>Chegou ao lugar certo!</h3>
+              <h5>
+                Conheça a Fábrica de Ideias: <br /> O seu novo recanto em Porto Alegre, RS!
+              </h5>
+              <a class="btn-section" onclick="scrollToDiv('presentation');">Saiba
+                mais
+              </a>
+            </div>
+          </div>
+          <!-- <a class="scroll-anchor" onclick="scrollToDiv('presentation');">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a> -->
+        </div>
+      </div>
+    </div>
+    <div class="section section-features section-motivation section-light" id="presentation">
+      <div class="container" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="description">
+              <section class="header-text">Por que escolher a Fábrica de Ideias?</section>
+              <p>Temos aqui um bom atendimento e opções de cursos, oficinas e eventos durante todo ano.<br />
+                Há assim uma comunidade ativa, onde você faz networking com empreendedores e profissionais, e ainda trabalha em um
+                ambiente inspirador, criativo e colaborativo, muito bom para a criação de novos negócios.
+                <br />
+                <br /> Gostou? Então vem com a gente!
+              </p>
+              <button class="btn-section btn-primary" onclick="scrollToDiv('highlights')">Nossos diferenciais
+              </button>
+              <button class="btn-section btn-primary" onclick="scrollToDiv('advantages')">Nossos benefícios
+              </button>
+            </div>
+            <!--   <div class="text-center">
+              <button class="btn-section btn-primary" onclick="scrollToDiv('user')">Quero
+                contratar
+              </button>
+            </div> -->
+          </div>
+          <div class="col-md-5 col-md-offset-1 hidden-xs hidden-sm">
+            <img class="right-image" src="assets/img/fabricalogo.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- For you -->
+    <div class="section section-features section-colorful section-user" id="highlights">
+      <div class="container" data-aos="zoom-in">
+        <h4 class="header-text text-center">Nossos diferenciais</h4>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="clock"></ion-icon>
+              </div>
+              <div class="text">
+                <h4>Aberto toda hora</h4>
+                <p>Somos o primeiro espaço coletivo do RS disponível por
+                  24 horas o dia, 7 dias a semana.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="ios-wifi"></ion-icon>
+              </div>
+              <h4>Flexível</h4>
+              <p>Na Fábrica nós flexibilizamos e apoiamos
+                todo tipo de negócio e empreendimento inovador.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="ios-pin"></ion-icon>
+              </div>
+              <h4>Bem Localizado <br /></h4>
+              <p>Estamos no Centro Histórico, no coração de POA, fácil de acessar e de receber clientes. </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="ios-bulb"></ion-icon>
+              </div>
+              <h4>Ponto das Ideias</h4>
+              <p>O espaço é aberto para criação de negócios e produtos, especialmente de base tecnológica. </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="medal"></ion-icon>
+              </div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem Ipsum dollem fabricsom de ideiasom sit amet.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="basket"></ion-icon>
+              </div>
+              <div class="text">
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem Ipsum dollem fabricsom de ideiasom sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <br />
+          <br />
+          <a href="%pwa_address_placeholder%/auth/customer" class="btn-primary btn-section">Quero contratar!</a>
+          <br />
+        </div>
+      </div>
+    </div>
+    <!-- For you -->
+    <div class="section section-features section-white section-user" id="advantages">
+      <div class="container" data-aos="zoom-in">
+        <h4 class="header-text text-center">Conheça nossos benefícios</h4>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="heart"></ion-icon>
+              </div>
+              <div class="text">
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem Ipsum dollem fabricsom de ideiasom sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="ios-wifi"></ion-icon>
+              </div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem Ipsum dollem fabricsom de ideiasom sit amet.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="ios-calendar"></ion-icon>
+              </div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem Ipsum dollem fabricsom de ideiasom sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="ios-medkit"></ion-icon>
+              </div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem Ipsum dollem fabricsom de ideiasom sit amet.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="medal"></ion-icon>
+              </div>
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem Ipsum dollem fabricsom de ideiasom sit amet.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blue">
+              <div class="icon">
+                <ion-icon name="basket"></ion-icon>
+              </div>
+              <div class="text">
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem Ipsum dollem fabricsom de ideiasom sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <br />
+          <br />
+          <a href="%pwa_address_placeholder%/auth/customer" class="btn-primary btn-section">Quero contratar!</a>
+          <br />
+        </div>
+      </div>
+    </div>
+    <div class="section section-features section-subscribe section-no-padding">
+      <div class="parallax filter-gradient blue" data-color="blue">
+        <div class="parallax-background">
+          <!-- <img class="parallax-background-image" src="assets/img/backgrounds/bg-01.jpg" /> -->
+        </div>
+        <div class="info">
+
+          <h1>
+            <br>Que tal ter conforto na hora de desempenhar suas funções?
+          </h1>
+          <p>Ficou interessadx? Então vem com a gente nessa missão: Insere teu e-mail abaixo
+            pra ficar por dentro
+            das novidades do lançamento ;)</p>
+          <br>
+          <section class="subscribe">
+            <input type="text" class="subscribe-input" id="subscribe-input">
+          </section>
+          <button class="btn-subscribe" id="subscribe-btn">
+            Vamos juntxs!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  @require('pages/components/scripts.html')
+  @require('pages/components/footer.html')
+</body>
+
+</html>
+<!-- 
 <div class="container-fluid whitespace page">
   <div class="row text-center" style="padding-top:1.5%; padding-bottom:1.5%">
     <div class="col-md-3 col-sm-6" style="background-color:white;">
@@ -7,8 +251,7 @@
         <img src="assets/svg/clock.svg" width="60%" />
         <br><br>
         <h3>Aberto toda hora</h3>
-        <p>Somos o primeiro espaço coletivo do RS disponível por
-          24 horas o dia, 7 dias a semana.
+        <p>
         </p><br>
       </div>
     </div>
@@ -108,5 +351,4 @@
     </div>
   </div>
 </div>
-
-@require('pages/components/footer.html')
+ -->

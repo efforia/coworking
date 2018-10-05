@@ -1,6 +1,6 @@
-$primary: lighten(#ff145a, 2);
+$primary: adjust-hue(#6e39c4, 30);
 $section-header-color: #222;
-$secondary: #ff145a;
-$gradient-color: darken($primary, 10);
+$secondary: #7a5ea8;
+$gradient-color: adjust-hue($primary, 10);
 $balanced: rgb(75, 196, 110);
 $gradient-hue: 30;
