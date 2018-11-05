@@ -109,30 +109,12 @@
       <div class="col-md-4 text-center">
 	<p style="font-size:2em;">DIURNA</p>
 	<div><p style="font-size:1.5em; line-height:1.5em; margin-top:0.5em"> R$ 10 </p></div>
-	<div>
-	  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-	  <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-	    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-	    <input name="itemCode" value="AE0A69738B8B5A2774E53FB194B4008E" type="hidden">
-	    <input class="btn btn-success" name="submit" value="Locar avulsamente" type="submit">
-	  </form>
-	  <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-	</div>
       </div>
       </div>
       <div class="col-md-6 col-sm-6" style="background:#554F9F; color:white; padding:1em">
       <div class="col-md-4 text-center">
 	<p style="font-size:2em;">NOTURNA</p>
 	<div><p style="font-size:1.5em; line-height:1.5em; margin-top:0.5em"> R$ 10 </p></div>
-	<div>
-	  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-	  <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-	    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-	    <input name="itemCode" value="CDF167695B5B953AA4638FA959BFF859" type="hidden">
-	    <input class="btn btn-success" name="submit" value="Locar avulsamente" type="submit">
-	  </form>
-	  <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-	</div>
       </div>
       <div class="col-md-8 hidden-sm hidden-xs" style="margin-top:0.5em; text-align:left">
 	  <p style="margin:0px">Uso de uma estação fora das 9h às 18h</p>
@@ -151,15 +133,6 @@
 	    <div class="row">
 	      <div class="col-md-6 col-sm-6 text-center">
 		<div><p style="font-size:2em; line-height:1.5em; margin-top:0.5em"> R$ 20 </p></div>
-		<div>
-		  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-		  <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-		    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-		    <input name="itemCode" value="89787C974646A102247B3FAAC459713E" type="hidden">
-		    <input class="btn btn-block btn-success" name="submit" value="Locar para atendimento" type="submit">
-		  </form>
-		  <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-		</div>
 		<div style="text-align:center; margin-top:1.5em">
 		  <p style="margin:0px;">Avulso para uso de uma mesa</p>
 		  <p style="margin:0px;">Para atendimento ou reunião</p>
@@ -168,15 +141,6 @@
 	      </div>
 	      <div class="col-md-6 col-sm-6 text-center">
 		<div><p style="font-size:2em; line-height:1.5em; margin-top:0.5em"> R$ 40 </p></div>
-		<div>
-		  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-		  <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-		    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-		    <input name="itemCode" value="8BDB96807676FDDDD49CAF856191CB7C" type="hidden">
-		    <input class="btn btn-block btn-success" name="submit" value="Locar para evento" type="submit">
-		  </form>
-		  <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-		</div>
 		<div style="text-align:center; margin-top:1.5em">
 		  <p style="margin:0px;">Avulso para uso da sala inteira</p>
 		  <p style="margin:0px;">Para eventos ou oficinas</p>
@@ -193,77 +157,31 @@
             <td>Quantidade de horas</td>
             <td>Valor do pacote por pessoa</td>
             <td>Valor por hora</td>
-            <td>Opções</td>
           </tr>
           <tr style="display:none">
             <td>1h noturna</td>
             <td>R$ 12,00</td>
             <td>R$ 12,00/h</td>
-            <td>
-              <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-              <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-                <input name="itemCode" value="7999627DBDBD589444028FB975DEF612" type="hidden">
-                <input class="btn btn-success" name="submit" value="Comprar" type="submit">
-              </form>
-              <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-            </td>
           </tr>
           <tr>
             <td>1h</td>
             <td>R$ 10,00</td>
             <td>R$ 10,00/h</td>
-            <td>
-              <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-              <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-                <input name="itemCode" value="647504239F9F51F0041BEFAAB1C967BD" type="hidden">
-                <input class="btn btn-success" name="submit" value="Comprar" type="submit">
-              </form>
-              <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-            </td>
           </tr>
           <tr>
             <td>8h</td>
             <td>R$ 50,00</td>
             <td>R$ 6,25/h</td>
-            <td>
-              <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-              <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-                <input name="itemCode" value="06878C3785851C6AA48C3F8D4FEDA2FE" type="hidden">
-                <input class="btn btn-success" name="submit" value="Comprar" type="submit">
-              </form>
-              <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-            </td>
           </tr>
           <tr>
             <td>20h</td>
             <td>R$ 100,00</td>
             <td>R$ 5,00/h</td>
-            <td>
-              <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-              <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-                <input name="itemCode" value="4AC89CD09E9E63D0044BBFBB7B7918FB" type="hidden">
-                <input class="btn btn-success" name="submit" value="Comprar" type="submit">
-              </form>
-              <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-            </td>
           </tr>
           <tr>
             <td>40h</td>
             <td>R$ 160,00</td>
             <td>R$ 4,00/h</td>
-            <td>
-              <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-              <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-                <input name="itemCode" value="A5154273C7C7FFE334F24FB57174C057" type="hidden">
-                <input class="btn btn-success" name="submit" value="Comprar" type="submit">
-              </form>
-              <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-            </td>
           </tr>
         </tbody>
       </table>
