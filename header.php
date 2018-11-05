@@ -18,24 +18,24 @@
 
 <body class="full">
 
-<div class="navbar navbar-inverse fixed-navbar hidden-xs" style="background:rgba(0,0,0,0.75)">
+<div class="navbar navbar-inverse fixed-navbar" style="background:rgba(0,0,0,0.75)">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <div class="navbar-header" style="display:flex !important; align-items:center; justify-content:center;">
+      <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">{% trans "Toggle Navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
+      </button> -->
       <a class="navbar-brand" style="padding:10px; font-size:1.5em" href=".">
         <img src="./static/svg/fabricalogo.svg" style="display:inline; height:1.5em; align:middle;"/>
       </a>
     </div>
-    <div class="navbar-collapse collapse" style="border:none; box-shadow:none;">
+    <div class="navbar-collapse collapse" style="display:flex !important; align-items:center; justify-content:center; border:none; box-shadow:none;">
       <ul class="nav navbar-nav" style="float:none; margin: 0 auto; display:table; table-layout:fixed;">
         <li><a href="fotos">    Fotos     </a></li>
         <li><a href="valores">   Valores   </a></li>
-        <li><a href="coworkers">  Coworkers </a></li>
+        <!-- <li><a href="coworkers">  Coworkers </a></li> -->
       </ul>
     </div>
   </div>

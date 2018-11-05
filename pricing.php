@@ -30,10 +30,10 @@
       </div>!-->
       <div class="col-lg-offset-1 col-lg-10">
       <div class="col-md-4 col-sm-4 text-center">
-        <p style="font-size:3em; margin-top:0.5em">TURNO</p>
+        <p style="font-size:3em; margin-top:0.5em">MEIO TURNO</p>
         <div>
           <p style="font-size:2em; line-height:1.5em; margin-top:1em">
-            R$ 250
+            R$ 240
           </p>
         </div>
         <h2></h2>
@@ -51,10 +51,10 @@
         </ul>
       </div>
       <div class="col-md-4 col-sm-4 text-center">
-        <p style="font-size:3em; margin-top:0.5em">INTEGRAL</p>
+        <p style="font-size:3em; margin-top:0.5em">COMPLETO</p>
         <div>
           <p style="font-size:2em; line-height:1.5em; margin-top:1em">
-            R$ 360
+            R$ 320
           </p>
         </div>
         <h2></h2>
@@ -69,15 +69,15 @@
         </div>
         <ul style="text-align:left; margin-top:1.5em">
           <li><span style="line-height: 1.5em;">Estação de trabalho fixa no Coworking<br></span></li>
-          <li><span style="line-height: 1.5em;">Coworking liberado com acesso a chaves</span></li>
+          <li><span style="line-height: 1.5em;">Coworking liberado com acesso em horário comercial</span></li>
           <li><span style="line-height: 1.5em;">Cota de impressões, armário e endereço</span></li>
         </ul>
       </div>
       <div class="col-md-4 col-sm-4 text-center">
-        <p style="font-size:3em; margin-top:0.5em">NOTURNO</p>
+        <p style="font-size:3em; margin-top:0.5em">INTEGRAL</p>
         <div>
           <p style="font-size:2em; line-height:1.5em; margin-top:1em">
-            R$ 270
+            R$ 480
           </p>
         </div>
         <h2></h2>
@@ -91,8 +91,8 @@
           <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
         </div>
         <ul style="text-align:left; margin-top:1.5em">
-          <li><span style="line-height: 1.5em;">Estação de trabalho noturno exclusivo</span></li>
-          <li><span style="line-height: 1.5em;">Uso livre fora do horário com chaves</span></li>
+          <li><span style="line-height: 1.5em;">Estação de trabalho fixa no Coworking</span></li>
+          <li><span style="line-height: 1.5em;">Coworking liberado com acesso a chaves</span></li>
           <li><span style="line-height: 1.5em;">Cota de impressões, armário e endereço</span></li>
         </ul>
       </div>
@@ -101,14 +101,14 @@
     <div class="row" style="padding:2% 0%">
       <div class="col-md-6 col-sm-6" style="background:#E5B14E; color:black; padding:1em">
       <div class="col-md-8 hidden-sm hidden-xs" style="margin-top:0.5em; text-align:right">
-	  <p style="margin:0px;">Uso de uma estação das 9h às 19h</p>
+	  <p style="margin:0px;">Uso de uma estação das 9h às 18h</p>
 	  <p style="margin:0px;">Sem contrato de uso mínimo de horas</p>
-	  <p style="margin:0px;">Uso do Coworking para trabalho</p>
+	  <p style="margin:0px;">Uso do Coworking por pessoa para trabalho</p>
 	  <p style="margin:0px;">Valor da hora por estação</p>
       </div>
       <div class="col-md-4 text-center">
 	<p style="font-size:2em;">DIURNA</p>
-	<div><p style="font-size:1.5em; line-height:1.5em; margin-top:0.5em"> R$ 6 </p></div>
+	<div><p style="font-size:1.5em; line-height:1.5em; margin-top:0.5em"> R$ 10 </p></div>
 	<div>
 	  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
 	  <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
@@ -123,7 +123,7 @@
       <div class="col-md-6 col-sm-6" style="background:#554F9F; color:white; padding:1em">
       <div class="col-md-4 text-center">
 	<p style="font-size:2em;">NOTURNA</p>
-	<div><p style="font-size:1.5em; line-height:1.5em; margin-top:0.5em"> R$ 12 </p></div>
+	<div><p style="font-size:1.5em; line-height:1.5em; margin-top:0.5em"> R$ 10 </p></div>
 	<div>
 	  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
 	  <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
@@ -135,9 +135,9 @@
 	</div>
       </div>
       <div class="col-md-8 hidden-sm hidden-xs" style="margin-top:0.5em; text-align:left">
-	  <p style="margin:0px">Uso de uma estação fora das 9h às 19h</p>
+	  <p style="margin:0px">Uso de uma estação fora das 9h às 18h</p>
 	  <p style="margin:0px">Sem contrato de uso mínimo de horas</p>
-	  <p style="margin:0px">Uso do Coworking para trabalho</p>
+	  <p style="margin:0px">Uso do Coworking por pessoa para trabalho</p>
 	  <p style="margin:0px">Valor da hora por estação</p>
       </div>
       </div>
@@ -146,11 +146,11 @@
     <div class="col-md-6" style="padding:2% 2%">
       <h2 style="text-align: right;">Valores Avulsos do Coworking</h2>
       <p style="text-align: right;">Está precisando de um lugar para de vez em quando para trabalhar durante um turno? Sem problemas, a Fábrica de Ideias Coworking tem para você os pacotes de horas, caso ainda não seja membro da Fábrica. Para saber mais sobre estes valores e outros planos, contate-nos.</p>
-      <p style="text-align: right;">Tem interesse em realizar eventos, reuniões ou atendimentos no Coworking? Faça sua próxima palestra, oficina ou curso na Fábrica!</p>
+      <p style="text-align: right;">Tem interesse em realizar eventos, reuniões ou atendimentos no Coworking? Faça sua próxima palestra, oficina ou curso na Fábrica! Confira nossos pacotes de locações especiais contatando-nos por <a href="mailto:ola@fabricaideias.co">ola@fabricaideias.co</a>.</p>
       <p style="text-align: right;"></p>
 	    <div class="row">
 	      <div class="col-md-6 col-sm-6 text-center">
-		<div><p style="font-size:2em; line-height:1.5em; margin-top:0.5em"> R$ 25 </p></div>
+		<div><p style="font-size:2em; line-height:1.5em; margin-top:0.5em"> R$ 20 </p></div>
 		<div>
 		  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
 		  <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
@@ -167,7 +167,7 @@
 		</div>
 	      </div>
 	      <div class="col-md-6 col-sm-6 text-center">
-		<div><p style="font-size:2em; line-height:1.5em; margin-top:0.5em"> R$ 50 </p></div>
+		<div><p style="font-size:2em; line-height:1.5em; margin-top:0.5em"> R$ 40 </p></div>
 		<div>
 		  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
 		  <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
@@ -211,8 +211,8 @@
           </tr>
           <tr>
             <td>1h</td>
-            <td>R$ 6,00</td>
-            <td>R$ 6,00/h</td>
+            <td>R$ 10,00</td>
+            <td>R$ 10,00/h</td>
             <td>
               <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
               <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
@@ -224,9 +224,9 @@
             </td>
           </tr>
           <tr>
-            <td>10h</td>
+            <td>8h</td>
             <td>R$ 50,00</td>
-            <td>R$ 5,00/h</td>
+            <td>R$ 6,25/h</td>
             <td>
               <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
               <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
@@ -238,9 +238,9 @@
             </td>
           </tr>
           <tr>
-            <td>30h</td>
-            <td>R$ 125,00</td>
-            <td>R$ 4,15/h</td>
+            <td>20h</td>
+            <td>R$ 100,00</td>
+            <td>R$ 5,00/h</td>
             <td>
               <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
               <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
@@ -252,9 +252,9 @@
             </td>
           </tr>
           <tr>
-            <td>50h</td>
+            <td>40h</td>
             <td>R$ 160,00</td>
-            <td>R$ 3,20/h</td>
+            <td>R$ 4,00/h</td>
             <td>
               <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
               <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">

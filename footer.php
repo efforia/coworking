@@ -12,14 +12,14 @@
          <p>
            O primeiro ambiente coletivo 24h do RS<br>
            Rua Vigário José Inácio, 399/702 - Porto Alegre - RS<br>
-           <a style="text-decoration: none;" href="mailto:contato@fabricadeideiascw.com.br">
-             contato@fabricadeideiascw.com.br
+           <a style="text-decoration: none;" href="mailto:ola@fabricaideias.co">
+             ola@fabricaideias.co
            </a><br>
-           Telefone: +5551 3516-2367<br>
-           Celular 1: +5551 9848-5888 (William)<br>
-           Celular 2: +5551 9959-9355 (Aida)<br>
+           Telefone: +55 (51) 3516-2367<br>
+           Celular 1: +55 (51) 99848-5888 (William)<br>
+           Celular 2: +55 (51) 99959-9355 (Aida)<br>
            Horário de funcionamento comercial:<br>
-           Segunda a sexta-feira, das 9h às 19h<br>
+           Segunda a sexta-feira, das 9h às 12h, e das 13h às 18h<br>
          </p>
          <a href="https://www.facebook.com/Fabricadeideiascw?ref=ts&amp;fref=ts">
            <img src="./static/svg/facebook.svg" style="margin-left: 0em;" class="rounded-icon" height="48" width="48">
