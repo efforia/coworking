@@ -20,7 +20,7 @@
       </p><br>
 		</div>
 	</div>
-	<div class="col-md-3 hidden-sm" style="background-color:white;">
+	<div class="col-md-3 d-sm-none d-md-block" style="background-color:white;">
     <div href="#" class="black">
       <img src="./static/svg/house.svg" width="60%"/>
 	    <br><br><h3>Bem Localizado</h3>
@@ -29,7 +29,7 @@
       </p><br>
 		</div>
 	</div>
-	<div class="col-md-3 hidden-sm" style="background-color:white;">
+	<div class="col-md-3 d-sm-none d-md-block" style="background-color:white;">
     <div href="#" class="black">
       <img src="./static/svg/idea.svg" width="60%"/>
 		  <br><br><h3>Ponto das Ideias</h3>
@@ -40,7 +40,7 @@
 	</div>
 </div>
 
-<div class="row visible-sm text-center">
+<div class="row d-none d-sm-block d-md-none text-center">
   <div class="col-sm-6">
     <img src="./static/svg/house.svg" width="60%"/>
     <br><br><h3>Boa Estrutura</h3>
@@ -72,7 +72,7 @@
 </div>
 
 <div class="row" style="padding-bottom:1.5%">
-  <div class="col-md-offset-1 col-md-5 text-center">
+  <div class="offset-md-1 col-md-5 text-center">
     <h3>Quer conhecer?</h3>
     <p style="font-size:1em; line-height: 2em;">Converse com a gente por
       <a href="mailto:ola@fabricadeideiascw.com.br">ola@fabricadeideiascw.com.br</a>
