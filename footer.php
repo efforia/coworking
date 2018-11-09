@@ -1,5 +1,5 @@
 <footer class="footer">
- <div class="container">
+ <div class="container pt-5">
    <div class="row">
      <div style="text-align: right;" class="col-6">
        <h2>Onde ficamos?</h2>
@@ -26,22 +26,51 @@
        <a href="https://twitter.com/fabricaideiascw">
          <img src="./static/svg/twitter.svg" class="rounded-icon" height="48" width="48">
        </a>
-       <a href="https://plus.google.com/u/0/114229628763368667145/posts">
-         <img src="./static/img/google.png" class="rounded-icon" height="48" width="48">
-       </a>
        <a href="https://pt.foursquare.com/v/f%C3%A1brica-de-ideias-coworking--escrit%C3%B3rio-compartilhado/507e0c1a64a41ea912010f7c">
          <img src="./static/svg/foursquare.svg" style="border-radius: 5px" class="rounded-icon" height="48" width="48">
        </a>
-       <a class="hidden-sm hidden-xs" href="https://github.com/fabricadeideiascw">
+       <a class="hidden-sm hidden-xs" href="https://github.com/fabricadeideias">
          <img src="./static/svg/github.svg" class="rounded-icon" height="48" width="48">
        </a><br><br></b></b>
      </div>
    </div>
    <div class="row">
-     <p class="text-center">Orgulhosamente criado por <a href="http://efforia.io/">Efforia</a></p>
+     <p style="width:100%" class="text-center">Orgulhosamente criado por <a href="http://efforia.io/">Efforia</a></p>
    </div>
  </div>
 </footer>
+
+<script>
+function show() {
+  var price = 0
+  var hours = $('#customRange1').val();
+  var radio = document.getElementsByName('customRadio');
+  for(var i = 0, length = radio.length; i < length; i ++) {
+    if(radio[i].checked) price = radio[i].value;
+  }
+  /*if(hours == 480) {
+    price = price / 10;
+  } else */if(hours >= 160) {
+    price = price / 5;
+  } else if(hours >= 80) {
+    price = price / 3.33333;
+  } else if(hours >= 40) {
+    price = price / 2.5;
+  } else if(hours >= 20) {
+    price = price / 2;
+  } else if(hours >= 8) {
+    price = price / 1.6;
+  } else if(hours >= 4) {
+    price = price / 1.33333;
+  }
+
+  price = Math.round(price * 100) / 100;
+  $('#hours').html(hours);
+  if(hours == 1) $('#hourstring').html('Hora');
+  if(hours > 1) $('#hourstring').html('Horas');
+  $('#price').html(price * hours);
+}
+</script>
 
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

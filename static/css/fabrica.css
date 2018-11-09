@@ -8,7 +8,7 @@ html,body
 }
 @font-face { font-family: 'Odin Rounded'; src: url("../ttf/odinrounded.otf"); font-weight: bold; }
 .nebula {
-    background-image:url("../img/coworking.jpg");
+    background-image:url("../img/coworking.jpeg");
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
@@ -32,7 +32,7 @@ a,a:hover,a:active,a:focus { text-decoration:none !important; }
 .inline { display:inline; color:white; }
 .hidden { display:none; }
 .centered { text-align:center; }
-.footer { background-color:#222222; color:#969696; margin-top:0; font-size: 1em; border-top:0; }
+.footer { background-color:white; color:black; margin-top:0; font-size: 1em; border-top:0; }
 
 .input_id_card_pay_option_0 { display:none; }
 .fixed-navbar {
@@ -42,19 +42,18 @@ a,a:hover,a:active,a:focus { text-decoration:none !important; }
 	margin-bottom:0px;
 }
 
-.jumbotron {
+#navigation {
+  background: #7a5ea7;
+}
+
+.overlay {
   height: 100%;
   margin: 0;
   display: flex;
   color: white !important;
-  background: rgba(0, 0, 0, 0.75);
+  background: linear-gradient(rgba(0,0,0,0.60), rgba(122, 94, 167, 0.60));
   text-align: center;
   align-items: center;
-}
-
-.overlay {
-  color:white !important;
-  background:rgba(0,0,0,0.75);
 }
 
 .full { background-size: cover; }
@@ -64,32 +63,5 @@ a,a:hover,a:active,a:focus { text-decoration:none !important; }
   color: black !important;
 }
 
-.navbar-center {
-  float:none;
-  margin: 0 auto;
-  display:table;
-  table-layout:fixed;
-}
-
-.navbar-nav li { font-size:1.5em; }
-.navbar-nav li a { color: white !important; }
-
-.navbar-collapse.collapse {
-  display: block!important;
-}
-
-.navbar-nav>li, .navbar-nav {
-  float: left !important;
-}
-
-.navbar-nav.navbar-right:last-child {
-  margin-right: -15px !important;
-}
-
-.navbar-right {
-  float: right!important;
-}
-
-.nav > li > a:focus, .nav > li > a:hover {
-  background-color:transparent;
-}
+ul.nav li.nav-item { font-size:1.5em; margin: .5em; }
+.nav li a { color: white !important; }
