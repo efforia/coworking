@@ -7,12 +7,12 @@ html,body
     overflow-x: hidden;
 }
 @font-face { font-family: 'Odin Rounded'; src: url("../ttf/odinrounded.otf"); font-weight: bold; }
-.nebula {
+/* .nebula {
     background-image:url("../img/coworking.jpeg");
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
-}
+} */
 body {
   background:#222222;
 	font-family:Roboto;
@@ -50,8 +50,9 @@ a,a:hover,a:active,a:focus { text-decoration:none !important; }
   height: 100%;
   margin: 0;
   display: flex;
-  color: white !important;
-  background: linear-gradient(rgba(0,0,0,0.60), rgba(122, 94, 167, 0.60));
+  /* color: white !important; */
+  /* background: linear-gradient(rgba(0,0,0,0.60), rgba(122, 94, 167, 0.60)); */
+  background: white;
   text-align: center;
   align-items: center;
 }
