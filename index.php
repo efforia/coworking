@@ -10,6 +10,7 @@
 <title>Fábrica de Ideias</title>
 <link rel="shortcut icon" href="./static/img/fabricalogo.png">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&amp;subset=latin-ext" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="./static/css/fabrica.css">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -18,210 +19,226 @@
 </head>
 
 <body class="full nebula">
-  <ul id="navigation" class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Coworking</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Learning</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Labs</a>
-    </li>
-  </ul>
-  <div id="jumbotron" class="overlay">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-12">
-          <img src="./static/svg/factory.svg" class="d-none d-sm-block img-responsive center-block" style="width:20%; margin:0 auto;"/>
-          <img src="./static/svg/factory.svg" class="d-block d-sm-none img-responsive center-block" style="width:30%; margin:0 auto;"/>
-          <h2 style="font-size:2em; line-height:1.2em; padding-top:1em;">
-            Somos a Fábrica de Ideias, <br>um ambiente coletivo ideal para<br> trabalho, cursos e empreendedorismo<br>
-          </h2>
+  <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="./static/svg/fabricalogo.svg" style="display:inline; height:1.5em; align:middle;"/>
+    </a>
+    <ul class="navbar-nav ml-auto mr-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Coworking</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Learning</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Labs</a>
+      </li>
+    </ul>
+    <form class="form-inline">
+      <button class="btn btn-outline-success" type="button">Inscrever</button>
+    </form>
+  </nav>
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-md-6 pr-5">
+        <h2 style="font-size:2em; line-height:1.2em; padding-top:0em; text-align: left">
+          Seu ambiente coletivo ideal para trabalho, cursos e empreendedorismo.
+        </h2>
+        <p style="font-size:1em; line-height: 2em;">Converse com a gente por
+          <a href="mailto:ola@fabricaideias.co">ola@fabricaideias.co</a>
+          e marque uma visita durante a semana. Vamos recebê-lo com um bom café, chá ou chimarrão.
+          Temos aqui um bom atendimento e opções
+        de cursos, oficinas e eventos durante todo ano.</p>
+        <form class="py-2 my-2">
+          <div class="form-group">
+            <label class="question" for="customRadio"><strong>Para quantas pessoas você precisa?</strong></label><br>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="10" id="customRadio1">
+              <label class="custom-control-label" for="customRadio1"> Cadeira (1 Pessoa) </label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="20" id="customRadio2">
+              <label class="custom-control-label" for="customRadio2"> Mesa (5 Pessoas) </label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="40" id="customRadio3">
+              <label class="custom-control-label" for="customRadio3"> Sala (10 Pessoas)</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="question" for="customRange1"><strong>Quantas horas você precisa usar?</strong></label>
+            <input onchange="show()" class="custom-range" type="range" min="1" max="160" start="1" id="customRange1">
+            <label id="hours">1</label>
+            <label id="hourstring">Hora</label>
+            <label>&nbsp;-&nbsp;R$</label>
+            <label id="price">10,00</label>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 pl-5">
+        <div class="row">
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09758.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09758.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09759.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09759.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09761.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09761.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09766.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09766.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09768.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09768.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09769.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09769.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09770.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09770.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09771.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09771.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09772.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09772.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09773.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09773.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09774.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09774.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09775.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09775.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09776.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09776.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09779.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09779.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0">
+            <a class="thumbnail" href="./static/media/coworking/DSC09780.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09780.JPG">
+            </a>
+          </div>
+          <div class="col-4 col-md-3 p-0 d-none d-sm-block">
+            <a class="thumbnail" href="./static/media/coworking/DSC09777.JPG">
+              <img class="img-fluid" src="./static/media/coworking/DSC09777.JPG">
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
 
-<div class="container-fluid whitespace page">
-
-<div class="row">
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09758.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09758.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09759.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09759.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09761.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09761.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09766.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09766.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09768.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09768.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09769.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09769.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09770.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09770.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09771.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09771.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09772.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09772.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09773.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09773.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09774.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09774.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09775.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09775.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09776.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09776.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09779.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09779.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0">
-    <a class="thumbnail" href="./static/media/coworking/DSC09780.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09780.JPG">
-    </a>
-  </div>
-  <div class="col-4 col-md-3 p-0 d-none d-sm-block">
-    <a class="thumbnail" href="./static/media/coworking/DSC09777.JPG">
-      <img class="img-fluid" src="./static/media/coworking/DSC09777.JPG">
-    </a>
+<div class="container-fluid py-5">
+  <div class="row text-center text-white">
+    <div id="learn" class="col-md-6">
+      <img src="./static/svg/fabrica.svg" class="pt-5 pb-3 img-responsive center-block" style="width:20%; margin:0 auto;"/>
+      <div class="px-5">
+        <h2>Fábrica de Ideias Learning</h2>
+        <p>Desenvolva novas habilidades com a escola de cursos que a Fábrica de Ideias realiza durante o ano todo.</p>
+        <button class="btn btn-outline-info" type="button">Descubra</button>
+      </div>
+    </div>
+    <div id="labs"  class="col-md-6">
+      <img src="./static/svg/fabrica.svg" class="pt-5 pb-3 img-responsive center-block" style="width:20%; margin:0 auto;"/>
+      <div class="px-5">
+        <h2>Fábrica de Ideias Labs</h2>
+        <p>Venha desenvolver tua ideia com a gente em um ambiente coletivo e frutífero para o empreendedorismo.</p>
+        <button class="btn btn-outline-info" type="button">Descubra</button>
+      </div>
+    </div>
   </div>
 </div>
-</div>
 
-<div class="container-fluid py-5" style="background:#66a2d7">
+<div class="container-fluid py-5">
 
 <div class="row text-center">
-  <h2 class="pt-3 m-0" style="width:100%; color:white">Nossos Benefícios</h2>
+  <h2 class="pt-3 m-0" style="width:100%;">Nossos Benefícios</h2>
 </div>
 
 <div class="row text-center" style="padding-top:1.5%; padding-bottom:1.5%">
 
   <div class="col-6 col-sm-4 col-md-3">
     <div href="#" class="card my-2">
-      <img class="card-img-top p-5" src="./static/svg/clock.svg"/>
+      <img class="benefit card-img-top p-5" width="250" height="250" src="./static/img/ilustracao_coworking.png"/>
       <div class="card-body">
         <h3 class="card-title">Toda hora</h3>
-        <!--<p class="card-text">Somos o primeiro espaço coletivo do RS disponível por
+        <p class="card-text">Somos o primeiro espaço coletivo do RS disponível por
         24 horas o dia, 7 dias a semana.
-        </p>-->
+        </p>
       </div>
 		</div>
 	</div>
 	<div class="col-6 col-sm-4 col-md-3 d-sm-none d-md-block">
     <div href="#" class="card my-2">
-      <img class="card-img-top p-5" src="./static/svg/pig.svg"/>
+      <img class="benefit card-img-top p-5" width="250" height="250" src="./static/svg/pocket.svg"/>
 	    <div class="card-body">
         <h3 class="card-title">Flexível</h3>
-	      <!--<p class="card-text">Na Fábrica nós flexibilizamos e apoiamos
-        todo tipo de negócio e empreendimento inovador.</p>-->
+	      <p class="card-text">Na Fábrica nós flexibilizamos e apoiamos
+        todo tipo de negócio e empreendimento inovador.</p>
       </div>
 		</div>
 	</div>
 	<div class="col-6 col-sm-4 col-md-3">
     <div href="#" class="card my-2">
-      <img class="card-img-top p-5" src="./static/svg/house.svg"/>
+      <img class="benefit card-img-top p-5" width="250" height="250" src="./static/img/ilustracao_learning.png"/>
 	    <div class="card-body">
         <h3 class="card-title">Bem Localizado</h3>
-  	    <!--<p class="card-text">Estamos no Centro Histórico, no coração de POA,
+  	    <p class="card-text">Estamos no Centro Histórico, no coração de POA,
         fácil de acessar e de receber clientes.
-        </p>-->
+        </p>
       </div>
 		</div>
 	</div>
 	<div class="col-6 col-sm-4 col-md-3">
     <div href="#" class="card my-2">
-      <img class="card-img-top p-5" src="./static/svg/idea.svg"/>
+      <img class="benefit card-img-top p-5" width="250" height="250" src="./static/img/ilustracao_labs.png"/>
 		  <div class="card-body">
         <h3 class="card-title">Ponto das Ideias</h3>
-		    <!--<p class="card-text">O espaço é aberto para criação de negócios e
+		    <p class="card-text">O espaço é aberto para criação de negócios e
         produtos, especialmente de base tecnológica.
-        </p>-->
+        </p>
       </div>
 		</div>
 	</div>
 </div>
 
-</div>
-
-<div class="container-fluid whitespace page p-5">
-  <div class="row text-center">
-    <div class="col-12">
-      <h2 class="mt-2" style="width:100%">Na Fábrica de Ideias você escolhe o seu plano</h2>
-    </div>
-    <div class="offset-md-3 col-md-6 py-2">
-      <form class="py-5 my-5">
-        <div class="form-group">
-          <label for="customRadio">Para quantas pessoas você precisa?</label><br>
-          <div class="custom-control custom-radio custom-control-inline">
-            <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="10" id="customRadio1">
-            <label class="custom-control-label" for="customRadio1"> Cadeira (1 Pessoa) </label>
-          </div>
-          <div class="custom-control custom-radio custom-control-inline">
-            <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="20" id="customRadio2">
-            <label class="custom-control-label" for="customRadio2"> Mesa (5 Pessoas) </label>
-          </div>
-          <div class="custom-control custom-radio custom-control-inline">
-            <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="40" id="customRadio3">
-            <label class="custom-control-label" for="customRadio3"> Sala (10 Pessoas)</label>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="customRange1">Quantas horas você precisa usar?</label>
-          <input onchange="show()" class="custom-range" type="range" min="1" max="160" start="1" id="customRange1">
-          <label id="hours">1</label>
-          <label id="hourstring">Hora</label>
-          <label>&nbsp;-&nbsp;R$</label>
-          <label id="price">10,00</label>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-
-<!--<div style="display:none;" class="row">
-  <div class="col-md-offset-1 col-md-5 col-sm-6 text-right">
+<div class="row text-center">
+  <div class="offset-md-1 col-md-10 px-5">
     <h3>Entenda o Coworking</h3>
     <p style="font-size: 1em; line-height: 2em;">No Coworking, profissionais
       de diversas &aacute;reas, microempresas, empreendedores
@@ -230,27 +247,14 @@
       beneficiar com o uso comum da infraestrutura, diminuindo seus custos.
     </p>
   </div>
+</div>
+
+</div>
+
+<!--
   <div class="col-md-5 col-sm-6 text-left">
     <p><iframe width="100%" height="200" src="http://www.youtube.com/embed/BEhubwgjl6s" frameborder="0"></iframe></p>
   </div>
-</div>-->
-
-<div class="container-fluid py-5" style="background:#67b765; color:white">
-<div class="row">
-  <div class="offset-md-1 col-md-10 text-center">
-    <img class="img-fluid d-none center-block py-2" style="width:15%" src="./static//svg/factory.svg"/>
-    <h2>Que tal ter conforto na hora de trabalhar?</h2>
-    <div class="input-group input-group-lg my-3">
-      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-    </div>
-    <p style="font-size:1em; line-height: 2em;">Converse com a gente por
-      <a href="mailto:ola@fabricaideias.co">ola@fabricaideias.co</a>
-      e marque uma visita durante a semana. Vamos recebê-lo com um bom café, chá ou chimarrão.
-      Temos aqui um bom atendimento e opções
-    de cursos, oficinas e eventos durante todo ano. Há assim uma comunidade ativa, onde
-    você faz networking com empreendedores e profissionais, e ainda trabalha em um ambiente
-    inspirador, criativo e colaborativo, muito bom para a criação de novos negócios.</p>
-	</div>
   <div class="d-none col-md-5 text-center">
     <h3>Vantagens</h3>
     <img class="img-fluid" src="./static//svg/advantages.svg"/>
@@ -264,7 +268,21 @@
       <p><span class="glyphicon glyphicon-film">&nbsp;</span>Projetor e televisão 32"</p>
       <p><span class="glyphicon glyphicon-tint">&nbsp;</span>Espaços totalmente climatizados</p>
     </div>
-  </div>
+  </div>-->
+
+<div class="container-fluid py-5" style="background:black;">
+<div class="row text-white">
+  <div class="offset-md-1 col-md-10 text-center">
+    <img class="img-fluid d-none center-block py-2" style="width:15%" src="./static//svg/factory.svg"/>
+    <h2>Que tal ter conforto na hora de trabalhar?</h2>
+    <p> Há assim uma comunidade ativa, onde
+    você faz networking com empreendedores e profissionais, e ainda trabalha em um ambiente
+    inspirador, criativo e colaborativo, muito bom para a criação de novos negócios.</p>
+    <div class="input-group input-group-lg px-5 my-3">
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+    <button type="button" class="btn btn-outline-light btn-lg">Inscreva-se</button>
+	</div>
 </div>
 </div>
 

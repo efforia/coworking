@@ -13,12 +13,14 @@ html,body
     background-repeat:no-repeat;
     background-attachment:fixed;
 } */
+.question {
+  font-weight: bold;
+}
 body {
-  background:#222222;
-	font-family:Roboto;
+	font-family:Lato, sans-serif;
   font-weight:lighter;
 }
-h1,h2,h3,h4,h5,h6,ul.nav { font-family: Odin Rounded; font-weight:bold; text-transform:uppercase; }
+h1,h2,h3,h4,h5,h6,ul.nav { font-family: Lato, sans-serif; font-weight:bold; text-transform:uppercase; }
 a,a:hover,a:active,a:focus { text-decoration:none !important; }
 .footer { font-family: Roboto; font-size:1.5em;}
 
@@ -43,18 +45,23 @@ a,a:hover,a:active,a:focus { text-decoration:none !important; }
 }
 
 #navigation {
-  background: #7a5ea7;
+  padding: 15px;
+  border: 1px solid #d7d7d7;
 }
 
-.overlay {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  /* color: white !important; */
-  /* background: linear-gradient(rgba(0,0,0,0.60), rgba(122, 94, 167, 0.60)); */
-  background: white;
-  text-align: center;
-  align-items: center;
+#learn {
+  background:#001026;
+  min-height:720px;
+}
+
+#labs {
+  background:#1d0b33;
+  min-height:720px;
+}
+
+.benefit {
+   object-fit:contain;
+   object-position: center;
 }
 
 .full { background-size: cover; }
@@ -64,5 +71,8 @@ a,a:hover,a:active,a:focus { text-decoration:none !important; }
   color: black !important;
 }
 
-ul.nav li.nav-item { font-size:1.5em; margin: .5em; }
-.nav li a { color: white !important; }
+.navbar-nav li a {
+  color: black !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
