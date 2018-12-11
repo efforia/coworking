@@ -51,12 +51,12 @@ a,a:hover,a:active,a:focus { text-decoration:none !important; }
 
 #learn {
   background:#001026;
-  min-height:720px;
+  /* min-height:720px; */
 }
 
 #labs {
   background:#1d0b33;
-  min-height:720px;
+  /* min-height:720px; */
 }
 
 .benefit {
