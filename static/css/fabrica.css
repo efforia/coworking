@@ -5,6 +5,8 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow:scroll;
+    -webkit-overflow-scrolling:touch;
 }
 @font-face { font-family: 'Odin Rounded'; src: url("../ttf/odinrounded.otf"); font-weight: bold; }
 /* .nebula {
