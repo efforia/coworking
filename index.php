@@ -35,7 +35,7 @@
       </li>
     </ul>!-->
     <form class="form-inline ml-auto">
-      <button class="btn btn-outline-success" type="button">Contratar</button>
+      <a class="btn btn-outline-success" href="https://m.me/fabricaideiasco" target="_blank" role="button">Conversar</a>
     </form>
   </nav>
   <div class="container">
@@ -173,19 +173,19 @@
 <div class="container-fluid">
   <div class="row text-center text-white">
     <div id="learn" class="col-md-6">
-      <img src="./static/svg/learning.svg" class="pt-3 img-fluid center-block" style="width:70%; max-height:480px; margin:0 auto;"/>
+      <img src="./static/svg/learning.svg" class="pt-3 img-fluid center-block" style="width:50%; max-height:480px; margin:0 auto;"/>
       <div class="p-5">
         <h2>Aprenda</h2>
-        <p>Desenvolva novas habilidades com a escola de cursos que a Fábrica de Ideias realiza durante o ano todo.</p>
-        <button class="btn btn-outline-info" type="button">Descubra</button>
+        <p class="px-5">Desenvolva novas habilidades com a escola de cursos que a Fábrica de Ideias realiza durante o ano todo.</p>
+        <a class="btn btn-outline-info" href="https://facebook.com/fabricaideiasco/events" target="_blank" role="button">Descubra</a>
       </div>
     </div>
     <div id="labs"  class="col-md-6">
-      <img src="./static/svg/labs.svg" class="pt-3 img-fluid center-block" style="width:70%; max-height:480px; margin:0 auto;"/>
+      <img src="./static/svg/labs.svg" class="pt-3 img-fluid center-block" style="width:50%; max-height:480px; margin:0 auto;"/>
       <div class="p-5">
         <h2>Inove</h2>
-        <p>Venha desenvolver tua ideia com a gente em um ambiente coletivo e frutífero para o empreendedorismo.</p>
-        <button class="btn btn-outline-info" type="button">Contate</button>
+        <p class="px-5">Venha desenvolver tua ideia com a gente em um ambiente coletivo e frutífero para o empreendedorismo.</p>
+        <a class="btn btn-outline-info" href="mailto:ola@fabricaideias.co" target="_blank" role="button">Contate</a>
       </div>
     </div>
   </div>
@@ -199,8 +199,8 @@
 
 <div class="row text-center" style="padding-top:1.5%; padding-bottom:1.5%">
 
-  <div class="col-sm-4 col-md-3">
-    <div href="#" class="card my-2">
+  <div class="col-sm-4 col-md-4">
+    <div href="#" class="card my-2" style="min-height:425px">
       <img class="benefit card-img-top p-5" width="250" height="250" src="./static/svg/benefits_horario.svg"/>
       <div class="card-body">
         <h3 class="card-title">Toda hora</h3>
@@ -210,8 +210,8 @@
       </div>
 		</div>
 	</div>
-	<div class="col-sm-4 col-md-3 d-sm-none d-md-block">
-    <div href="#" class="card my-2">
+	<div class="col-sm-4 col-md-4">
+    <div href="#" class="card my-2" style="min-height:425px">
       <img class="benefit card-img-top p-5" width="250" height="250" src="./static/svg/benefits_valor.svg"/>
 	    <div class="card-body">
         <h3 class="card-title">Flexível</h3>
@@ -220,8 +220,8 @@
       </div>
 		</div>
 	</div>
-	<div class="col-sm-4 col-md-3">
-    <div href="#" class="card my-2">
+	<div class="col-sm-4 col-md-4">
+    <div href="#" class="card my-2" style="min-height:425px">
       <img class="benefit card-img-top p-5" width="250" height="250" src="./static/svg/benefits_local.svg"/>
 	    <div class="card-body">
         <h3 class="card-title">Bem Localizado</h3>
@@ -231,7 +231,7 @@
       </div>
 		</div>
 	</div>
-	<div class="col-sm-4 col-md-3">
+	<div class="col-sm-4 col-md-3 d-none">
     <div href="#" class="card my-2">
       <img class="benefit card-img-top p-5" width="250" height="250" src="./static/svg/benefits_networking.svg"/>
 		  <div class="card-body">
@@ -278,19 +278,48 @@
   </div>-->
 
 <div class="container-fluid py-5" style="background:black;">
-<div class="row text-white">
-  <div class="offset-md-1 col-md-10 text-center">
-    <img class="img-fluid d-none center-block py-2" style="width:15%" src="./static//svg/factory.svg"/>
-    <h2>Que tal ter conforto na hora de trabalhar?</h2>
-    <p> Há assim uma comunidade ativa, onde
-    você faz networking com empreendedores e profissionais, e ainda trabalha em um ambiente
-    inspirador, criativo e colaborativo, muito bom para a criação de novos negócios.</p>
-    <div class="input-group input-group-lg px-5 my-3">
-      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+  <div class="row text-white">
+    <div class="offset-md-1 col-md-10 text-center">
+      <h2>Que tal ter conforto na hora de trabalhar?</h2>
+      <p>Há assim uma comunidade ativa, onde
+      você faz networking com empreendedores e profissionais, e ainda trabalha em um ambiente
+      inspirador, criativo e colaborativo, muito bom para a criação de novos negócios.</p>
+      <form action="https://fabricaideias.us7.list-manage.com/subscribe/post?u=47d68fd2fa2b8f4d9dec8468a&amp;id=00c68a3b8f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="input-group input-group-lg px-5 my-3">
+          <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="required email form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"/>
+        </div>
+	      <div id="mce-responses" class="clear">
+		      <div class="response" id="mce-error-response" style="display:none"></div>
+		      <div class="response" id="mce-success-response" style="display:none"></div>
+	      </div>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_47d68fd2fa2b8f4d9dec8468a_00c68a3b8f" tabindex="-1" value="">
+        </div>
+        <div class="clear pt-3">
+          <input type="submit" value="Inscrever" name="subscribe" class="btn btn-outline-light btn-lg">
+        </div>
+      </form>
     </div>
-    <button type="button" class="btn btn-outline-light btn-lg">Inscreva-se</button>
-	</div>
-</div>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>(function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0]='EMAIL';
+        ftypes[0]='email';
+        fnames[1]='FNAME';
+        ftypes[1]='text';
+        fnames[2]='LNAME';
+        ftypes[2]='text';
+        fnames[3]='ADDRESS';
+        ftypes[3]='address';
+        fnames[4]='PHONE';
+        ftypes[4]='phone';
+        fnames[5]='BIRTHDAY';
+        ftypes[5]='birthday';
+      }(jQuery));
+      var $mcj = jQuery.noConflict(true);
+    </script>
+  </div>
 </div>
 
 <footer class="footer">
@@ -321,10 +350,10 @@
        <a href="https://twitter.com/fabricaideiascw">
          <img src="./static/svg/twitter.svg" class="rounded-icon" height="48" width="48">
        </a>
-       <a href="https://pt.foursquare.com/v/f%C3%A1brica-de-ideias-coworking--escrit%C3%B3rio-compartilhado/507e0c1a64a41ea912010f7c">
+       <!--<a href="https://pt.foursquare.com/v/f%C3%A1brica-de-ideias-coworking--escrit%C3%B3rio-compartilhado/507e0c1a64a41ea912010f7c">
          <img src="./static/svg/foursquare.svg" style="border-radius: 5px" class="rounded-icon" height="48" width="48">
-       </a>
-       <a class="hidden-sm hidden-xs" href="https://github.com/fabricadeideias">
+       </a>!-->
+       <a href="https://github.com/fabricadeideias">
          <img src="./static/svg/github.svg" class="rounded-icon" height="48" width="48">
        </a><br><br></b></b>
      </div>
