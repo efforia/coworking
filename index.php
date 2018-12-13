@@ -23,39 +23,27 @@
     <a class="navbar-brand" href="#">
       <img src="./static/svg/fabricalogo.svg" style="display:inline; height:1.5em; align:middle;"/>
     </a>
-    <!--<ul class="navbar-nav ml-auto mr-auto">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Coworking</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Learning</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Labs</a>
-      </li>
-    </ul>!-->
     <form class="form-inline ml-auto">
       <a class="btn btn-outline-success" href="https://m.me/fabricaideiasco" target="_blank" role="button">Conversar</a>
     </form>
   </nav>
   <div class="container">
     <div class="row my-0 my-sm-5">
-      <div class="col-md-6 pr-3 pr-sm-5">
+      <div class="col-md-6 pr-3 pr-md-5">
         <div class="py-3">
           <h2 style="font-size:2em; line-height:1.2em; padding-top:0em; padding-bottom:1em; text-align: left">
-            Seu ambiente coletivo ideal para trabalho, aprendizagem e inovação.
+            O ambiente coletivo ideal para trabalho, aprendizagem e inovação.
           </h2>
           <p style="font-size:1em; line-height: 2em;">Converse com a gente por
             <a href="mailto:ola@fabricaideias.co">ola@fabricaideias.co</a>
             e marque uma visita durante a semana. Vamos recebê-lo com um bom café, chá ou chimarrão.
-            Temos aqui um bom atendimento e opções
-          de cursos, oficinas e eventos durante todo ano.</p>
+            Temos aqui um bom atendimento e opções de cursos, oficinas e eventos durante todo ano.</p>
         </div>
         <form class="py-3 my-2">
           <div class="form-group py-3">
             <label class="question" for="customRadio"><strong>Para quantas pessoas você precisa?</strong></label><br>
             <div class="custom-control custom-radio custom-control-inline">
-              <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="10" id="customRadio1">
+              <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="10" id="customRadio1" selected>
               <label class="custom-control-label" for="customRadio1"> Cadeira (1 Pessoa) </label>
             </div>
             <div class="custom-control custom-radio custom-control-inline">
@@ -83,7 +71,7 @@
           </div>
         </form>
       </div>
-      <div class="col-md-6 pl-0 pl-sm-5">
+      <div class="col-md-6 pl-0 pl-md-5">
         <div class="row">
           <div class="col-6 offset-md-6 col-md-3 p-0">
             <a class="thumbnail" href="./static/media/coworking1.jpeg">
@@ -100,7 +88,7 @@
               <img class="img-fluid" src="./static/media/cwk8_sm.jpeg">
             </a>
           </div>
-          <div class="col-6 col-md-3 p-0 d-none d-sm-block">
+          <div class="col-6 col-md-3 p-0 d-none d-md-block">
             <a class="thumbnail" href="./static/media/coworking4.jpeg">
               <img class="img-fluid" src="./static/media/cwk4_sm.jpeg">
             </a>
@@ -113,7 +101,7 @@
               <img class="img-fluid" src="./static/media/cwk11_sm.jpeg">
             </a>
           </div>
-          <div class="col-6 col-md-3 p-0 d-none d-sm-block">
+          <div class="col-6 col-md-3 p-0 d-none d-md-block">
             <a class="thumbnail" href="./static/media/coworking7.jpeg">
               <img class="img-fluid" src="./static/media/cwk7_sm.jpeg">
             </a>
@@ -139,27 +127,27 @@
               <img class="img-fluid" src="./static/media/cwk12_sm.jpeg">
             </a>
           </div>
-          <div class="col-6 d-block d-sm-none p-0">
+          <div class="col-6 d-block d-md-none p-0">
             <a class="thumbnail" href="./static/media/coworking7.jpeg">
               <img class="img-fluid" src="./static/media/cwk7_sm.jpeg">
             </a>
           </div>
-          <div class="col-6 d-block d-sm-none p-0">
+          <div class="col-6 d-block d-md-none p-0">
             <a class="thumbnail" href="./static/media/coworking3.jpeg">
               <img class="img-fluid" src="./static/media/cwk3_sm.jpeg">
             </a>
           </div>
-          <div class="col-6 d-block d-sm-none p-0">
+          <div class="col-6 d-block d-md-none p-0">
             <a class="thumbnail" href="./static/media/coworking9.jpeg">
               <img class="img-fluid" src="./static/media/cwk9_sm.jpeg">
             </a>
           </div>
-          <div class="col-6 d-block d-sm-none p-0">
+          <div class="col-6 d-block d-md-none p-0">
             <a class="thumbnail" href="./static/media/coworking4.jpeg">
               <img class="img-fluid" src="./static/media/cwk4_sm.jpeg">
             </a>
           </div>
-          <div class="col-6 d-block d-sm-none p-0">
+          <div class="col-6 d-block d-md-none p-0">
             <a class="thumbnail" href="./static/media/coworking5.jpeg">
               <img class="img-fluid" src="./static/media/cwk5_sm.jpeg">
             </a>
@@ -174,18 +162,18 @@
   <div class="row text-center text-white">
     <div id="learn" class="col-md-6">
       <img src="./static/svg/learning.svg" class="pt-3 img-fluid center-block" style="width:50%; max-height:480px; margin:0 auto;"/>
-      <div class="p-5">
+      <div class="py-5 px-sm-5">
         <h2>Aprenda</h2>
-        <p class="px-5">Desenvolva novas habilidades com a escola de cursos que a Fábrica de Ideias realiza durante o ano todo.</p>
+        <p class="px-sm-5">Desenvolva novas habilidades com uma pletora de cursos, oficinas e atividades diferenciadas que a Fábrica de Ideias realiza durante o ano todo. Confira em nossa fan page nossos próximos eventos.</p>
         <a class="btn btn-outline-info" href="https://facebook.com/fabricaideiasco/events" target="_blank" role="button">Descubra</a>
       </div>
     </div>
     <div id="labs"  class="col-md-6">
       <img src="./static/svg/labs.svg" class="pt-3 img-fluid center-block" style="width:50%; max-height:480px; margin:0 auto;"/>
-      <div class="p-5">
+      <div class="py-5 px-sm-5">
         <h2>Inove</h2>
-        <p class="px-5">Venha desenvolver tua ideia com a gente em um ambiente coletivo e frutífero para o empreendedorismo.</p>
-        <a class="btn btn-outline-info" href="mailto:ola@fabricaideias.co" target="_blank" role="button">Contate</a>
+        <p class="px-sm-5">Traga a tua ideia com a gente em um ambiente coletivo e frutífero para o empreendedorismo. Oferecemos todo o apoio em programação, design e o que precisar para que o teu negócio decole.</p>
+        <a class="btn btn-outline-info" href="mailto:labs@fabricaideias.co" target="_blank" role="button">Contate</a>
       </div>
     </div>
   </div>
@@ -199,45 +187,34 @@
 
 <div class="row text-center" style="padding-top:1.5%; padding-bottom:1.5%">
 
-  <div class="col-sm-4 col-md-4">
+  <div class="col-md-4">
     <div href="#" class="card my-2" style="min-height:425px">
       <img class="benefit card-img-top p-5" width="250" height="250" src="./static/svg/benefits_horario.svg"/>
       <div class="card-body">
         <h3 class="card-title">Toda hora</h3>
         <p class="card-text">Somos o primeiro espaço coletivo do RS disponível por
-        24 horas o dia, 7 dias a semana.
+        24 horas o dia, 7 dias a semana, para qualquer tipo de atividade.
         </p>
       </div>
 		</div>
 	</div>
-	<div class="col-sm-4 col-md-4">
+	<div class="col-md-4">
     <div href="#" class="card my-2" style="min-height:425px">
       <img class="benefit card-img-top p-5" width="250" height="250" src="./static/svg/benefits_valor.svg"/>
 	    <div class="card-body">
         <h3 class="card-title">Flexível</h3>
-	      <p class="card-text">Na Fábrica nós flexibilizamos e apoiamos
-        todo tipo de negócio e empreendimento inovador.</p>
+	      <p class="card-text">Temos uma das melhores relações custo-benefício do
+        mercado. Compare e contrate um de nossos planos ou pacotes de horas.</p>
       </div>
 		</div>
 	</div>
-	<div class="col-sm-4 col-md-4">
+	<div class="col-md-4">
     <div href="#" class="card my-2" style="min-height:425px">
       <img class="benefit card-img-top p-5" width="250" height="250" src="./static/svg/benefits_local.svg"/>
 	    <div class="card-body">
         <h3 class="card-title">Bem Localizado</h3>
   	    <p class="card-text">Estamos no Centro Histórico, no coração de POA,
-        fácil de acessar e de receber clientes.
-        </p>
-      </div>
-		</div>
-	</div>
-	<div class="col-sm-4 col-md-3 d-none">
-    <div href="#" class="card my-2">
-      <img class="benefit card-img-top p-5" width="250" height="250" src="./static/svg/benefits_networking.svg"/>
-		  <div class="card-body">
-        <h3 class="card-title">Ponto das Ideias</h3>
-		    <p class="card-text">O espaço é aberto para criação de negócios e
-        produtos, especialmente de base tecnológica.
+        fácil de acessar por diversos meios e de receber clientes.
         </p>
       </div>
 		</div>
@@ -258,34 +235,14 @@
 
 </div>
 
-<!--
-  <div class="col-md-5 col-sm-6 text-left">
-    <p><iframe width="100%" height="200" src="http://www.youtube.com/embed/BEhubwgjl6s" frameborder="0"></iframe></p>
-  </div>
-  <div class="d-none col-md-5 text-center">
-    <h3>Vantagens</h3>
-    <img class="img-fluid" src="./static//svg/advantages.svg"/>
-    <div style="display:block; font-size: 1em; line-height: 2em;">
-      <p><span class="glyphicon glyphicon-map-marker">&nbsp;</span>Espaço bem localizado, próximo ao centro</p>
-      <p><span class="glyphicon glyphicon-ok">&nbsp;</span>Coworking pronto para trabalho</p>
-      <p><span class="glyphicon glyphicon-globe">&nbsp;</span>Internet 50M, material e armários</p>
-      <p><span class="glyphicon glyphicon-phone-alt">&nbsp;</span>Telefone para recados e impressão</p>
-      <p><span class="glyphicon glyphicon-edit">&nbsp;</span>Quadros para anotações</p>
-      <p><span class="glyphicon glyphicon-cutlery">&nbsp;</span>Geladeira, microondas e expresso</p>
-      <p><span class="glyphicon glyphicon-film">&nbsp;</span>Projetor e televisão 32"</p>
-      <p><span class="glyphicon glyphicon-tint">&nbsp;</span>Espaços totalmente climatizados</p>
-    </div>
-  </div>-->
-
 <div class="container-fluid py-5" style="background:black;">
   <div class="row text-white">
     <div class="offset-md-1 col-md-10 text-center">
       <h2>Que tal ter conforto na hora de trabalhar?</h2>
-      <p>Há assim uma comunidade ativa, onde
-      você faz networking com empreendedores e profissionais, e ainda trabalha em um ambiente
-      inspirador, criativo e colaborativo, muito bom para a criação de novos negócios.</p>
+      <p>Temos uma comunidade ativa, onde você faz networking com empreendedores e profissionais, e ainda trabalha em um ambiente
+      inspirador, criativo e colaborativo, muito bom para a criação de novos negócios. Interessou pelo assunto? Inscreva-se em nossa newsletter para saber mais.</p>
       <form action="https://fabricaideias.us7.list-manage.com/subscribe/post?u=47d68fd2fa2b8f4d9dec8468a&amp;id=00c68a3b8f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div class="input-group input-group-lg px-5 my-3">
+        <div class="input-group input-group-lg px-sm-5 my-3">
           <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="required email form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"/>
         </div>
 	      <div id="mce-responses" class="clear">
@@ -338,9 +295,9 @@
          <a style="text-decoration: none;" href="mailto:ola@fabricaideias.co">
            ola@fabricaideias.co
          </a><br>
-         Telefone: +55 (51) 3516-2367<br>
-         Celular 1: +55 (51) 99848-5888 (William)<br>
-         Celular 2: +55 (51) 99959-9355 (Aida)<br>
+         Telefone: (51) 3516-2367<br>
+         Celular 1: (51) 99848-5888 (William)<br>
+         Celular 2: (51) 99959-9355 (Aida)<br>
          Horário de funcionamento comercial:<br>
          Segunda a sexta-feira, das 9h às 12h, e das 13h às 18h<br>
        </p>
