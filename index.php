@@ -316,7 +316,7 @@
      </div>
    </div>
    <div class="row">
-     <p style="width:100%" class="text-center">Orgulhosamente criado por <a href="http://efforia.io/">Efforia</a></p>
+     <p style="width:100%" class="text-center">Orgulhosamente criado por <a target="_blank" href="https://www.efforia.io/">Efforia</a></p>
    </div>
  </div>
 </footer>
