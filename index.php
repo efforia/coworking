@@ -179,7 +179,7 @@
   </div>
 </div>
 
-<div class="container py-0 py-sm-5">
+<div class="container py-3 py-sm-5">
 
 <div class="row text-center">
   <h2 class="pt-3 m-0" style="width:100%;">Nossos Benefícios</h2>
