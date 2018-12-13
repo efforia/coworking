@@ -43,7 +43,7 @@
           <div class="form-group py-3">
             <label class="question" for="customRadio"><strong>Para quantas pessoas você precisa?</strong></label><br>
             <div class="custom-control custom-radio custom-control-inline">
-              <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="10" id="customRadio1" selected>
+              <input class="custom-control-input" type="radio" name="customRadio" onchange="show()" value="10" id="customRadio1">
               <label class="custom-control-label" for="customRadio1"> Cadeira (1 Pessoa) </label>
             </div>
             <div class="custom-control custom-radio custom-control-inline">
